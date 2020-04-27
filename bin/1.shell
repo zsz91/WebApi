@@ -1,0 +1,8 @@
+ls -al
+cd ..
+rm -rf src/H5Public
+npm run pullBase
+cnpm install
+cnpm run build
+
+ls -al
